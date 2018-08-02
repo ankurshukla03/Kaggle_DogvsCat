@@ -223,5 +223,9 @@ venv.bak/
 pyvenv.cfg
 pip-selfcheck.json
 
+# Ignore dataset compressed and uncompressed files
+/test1/*
+/train/*
+/validation/*
 
 # End of https://www.gitignore.io/api/data,linux,python,images,jupyternotebook
