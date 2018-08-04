@@ -9,6 +9,7 @@ Write an algorithm to classify whether images contain either a dog or a cat.  Th
 - From 25000 images I have used 4020 images for [validation](https://github.com/ankurshukla03/Kaggle_DogvsCat/tree/master/validation) while training the model. 2010 images for dog and 2010 images for cat. 
 Convolutional Layer: 3, input_shape = (128,128,3), Added Dropout for avoiding over fitting. Dropout rate = 0.5, With these changes acc for validation reached 92%
 - Ran another iteration with steps per epochs to 8000 and validation steps to 2000.
+- First Submission got 10.11(less is better) when submitted on Kaggle according to which it is not a great score
 
 # Model
 You can find all the code for the model [here](https://github.com/ankurshukla03/Kaggle_DogvsCat/blob/master/Kaggle-DognCat.ipynb)
